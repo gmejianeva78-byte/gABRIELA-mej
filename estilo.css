@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(38, 179, 165, 0.674);
+} 
+
+.parrafo {
+    color: darkmagenta;
+    background-color: rgba(255, 238, 171, 0.694);
+}
+
+#parrafoUnico {
+    color: rgb(255, 0, 221);
+}
+
+#contenedor1 {
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid white
+}
+
+#contenedor2 {
+    width: 45vw;
+    height: 80vh;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.cuadrado {
+    width: 25%;
+    height: 25%;
+    background-color: azure;
+    border: 1px solid blue;
+}
