@@ -16,6 +16,12 @@ body {
     height: 80vh;
     border: 1px solid white
 }
+.cuadrado {
+    width: 25%;
+    height: 25%;
+    background-color: azure;
+    border: 1px solid blue;
+}
 
 #contenedor2 {
     width: 45vw;
