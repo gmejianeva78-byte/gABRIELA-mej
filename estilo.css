@@ -44,12 +44,31 @@ body {
         align-items: flex-end;
 }
 
+@keyframes redondear {
+    0% {
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    50% {
+        border-radius: 25%;
+        background-color: black;
+    }
+    100% {
+        border-radius: 50%;
+        background-color: blueviolet;
+    }
+    
+}
 .cuadrado2 {
     width: 25%;
     height: 25%;
     background-color: azure;
     border: 1px solid blue;
     position: absolute;
+}
+
+.cuadrado:hover {
+    animation: redondear 2s linear infinite alternate;
 }
 .cuadrado3 {
     width: 25%;
