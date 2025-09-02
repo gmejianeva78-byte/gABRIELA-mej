@@ -2,7 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta 
+name="viewport" 
+content="width=device-width, initial-scale=1">
 <title>Dibujo de una Casa con SVG</title>
 <meta name="description" content="Dibujo vectorial simple de una casa con SVG: base, techo, puerta y ventana.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,11 +27,35 @@ svg{width:min(640px,90vw);height:auto}
 <svg viewBox="0 0 300 240" role="img" aria-labelledby="t d">
 <title id="t">Dibujo de casa en SVG</title>
 <desc id="d">Base rectangular, techo triangular, puerta y ventana.</desc>
-<rect x="0" y="200" width="300" height="8" fill="currentColor" opacity=".15"/>
-<rect x="60" y="100" width="180" height="110" rx="4" fill="var(--house)" stroke="var(--stroke)" stroke-width="2"/>
-<polygon points="150,45 45,110 255,110" fill="var(--roof)" stroke="var(--stroke)" stroke-width="2"/>
-<rect x="135" y="150" width="40" height="60" rx="2" fill="var(--door)" stroke="var(--stroke)" stroke-width="2"/>
-<circle cx="169" cy="180" r="3" fill="#facc15"/>
+<rect x="0" y="200" 
+width="300" 
+height="8" 
+fill="currentColor" 
+opacity=".15"/>
+
+<rect x="60" y="100" 
+width="180" 
+height="110" 
+rx="4" 
+fill="var(--house)" 
+stroke="var(--stroke)" 
+stroke-width="2"/>
+
+<polygon 
+points="150,45 45,110 255,110" 
+fill="var(--roof)" 
+stroke="var(--stroke)" 
+stroke-width="2"/>
+
+<rect x="135" y="150" 
+width="40" 
+height="60" rx="2" 
+fill="var(--door)" 
+stroke="var(--stroke)" 
+stroke-width="2"/>
+
+<circle cx="169" cy="180" r="3" 
+fill="#facc15"/>
 <rect x="85" y="130" width="50" height="40" rx="2" fill="var(--window)" stroke="var(--stroke)" stroke-width="2"/>
 <line x1="110" y1="130" x2="110" y2="170" stroke="var(--stroke)" stroke-width="2" opacity=".5"/>
 <line x1="85" y1="150" x2="135" y2="150" stroke="var(--stroke)" stroke-width="2" opacity=".5"/>
