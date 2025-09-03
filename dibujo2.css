@@ -1,6 +1,65 @@
-
-/***********************/
-/* Estilo dibujo*/
-#tituloDibujo {
-    text-align: center;
+Base {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #93c5fd 60%, #fef9c3 40%);
 }
+
+/* Escena general */
+.Cuerpo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* Base general de la casa */
+.Base {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+/* Techo triangular con clip-path */
+.techo {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 80px solid #b91c1c; /* color del techo */
+}
+
+/* Cuerpo rectangular */
+.Base {
+  width: 200px;
+  height: 150px;
+  background: #fef08a; /* color de pared */
+  border: 4px solid #78350f;
+  position: relative;
+}
+
+/* Ventanas cuadradas */
+.ventana {
+  width: 40px;
+  height: 40px;
+  background: #bfdbfe; /* vidrio */
+  border: 3px solid #1e3a8a;
+  position: absolute;
+  top: 30px;
+}
+.ventana.inquierda { left: 25px; }
+.ventana.derecha { right: 25px; }
+
+/* Puerta rectangular */
+.puerta {
+  width: 50px;
+  height: 80px;
+  background: #92400e;
+  border: 3px solid #451a03;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
