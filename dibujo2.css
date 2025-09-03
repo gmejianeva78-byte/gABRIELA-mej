@@ -63,3 +63,9 @@ Base {
   border-radius: 4px;
 }
 
+.puerta:hover {
+  background: #f97316; /* naranja más vivo */
+  cursor: pointer;
+}
+
+
