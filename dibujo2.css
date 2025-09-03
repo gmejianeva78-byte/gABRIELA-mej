@@ -53,3 +53,7 @@
   background: #f97316; /* naranja más vivo */
   cursor: pointer;
 }
+.Base:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
